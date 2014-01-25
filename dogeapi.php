@@ -57,7 +57,7 @@ class DogeAPI
         return $this->validate_key();
     }
 
-    public function get_key($key)
+    public function get_key()
     {
         return $this->api_key;
     }
