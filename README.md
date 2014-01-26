@@ -18,7 +18,7 @@ require_once 'path/to/dogeapi.php';
 Or preferably install via [Composer](https://getcomposer.org/)
 
 ~~~
-"dogeapi/dogeapi-php": "dev-master"
+"dogeapi-php/dogeapi-php": "dev-master"
 ~~~
 
 Instantiate the class and set your API key. If the API key is valid the set function will return true otherwise false.
