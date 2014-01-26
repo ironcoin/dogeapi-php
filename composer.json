@@ -1,11 +1,12 @@
 {
-    "name": "dogeapi-php/dogeapi-php",
+    "name": "dogeapi/dogeapi-php",
+    "license": "MIT",
     "description": "dogeapi-php API library",
     "keywords": ["dogecoin", "dogeapi"],
     "homepage": "https://dogeapi.com",
     "type": "library",
     "autoload": {
-        "psr-0": {"DogeAPI": "dogeapi-php/"}
+        "psr-0": {"DogeAPI": "lib/"}
     },
     "require": {
         "php": ">=5.2.0"
