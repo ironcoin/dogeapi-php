@@ -1,5 +1,5 @@
 <?php
-require_once 'dogeapi.php';
+require_once 'dogeapi-php/dogeapi.php';
 
 $dogeAPIKey = "INSERTAPIKEYHERE";
 
