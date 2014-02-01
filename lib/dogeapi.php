@@ -22,10 +22,11 @@ class DogeAPI
      * cURL GET request driver
      */
 
-    private function _request($method, $path, $args = array())
+    private function _request($method, $path, $args = array(), $api_key=true)
     {
         // Generate cURL URL
-        $url =  'https://www.dogeapi.com/wow/?api_key=' . $this->api_key . $path;
+        if($api_key==true) $url =  'https://www.dogeapi.com/wow/?api_key=' . $this->api_key . $path;
+        else $url =  'https://www.dogeapi.com/wow/?a=' . $path;
 
         // Check for args and build query string
         if (!empty($args)) {
@@ -127,4 +128,10 @@ class DogeAPI
         return $this->_request('GET', '&a=get_current_block');
     }   
 
+    // get_current_price
+    public function get_current_price($api_key=false)
+    {
+        return $this->_request('GET', '&a=get_current_price');
+    } 
+    
 }
