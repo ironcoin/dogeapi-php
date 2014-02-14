@@ -6,7 +6,6 @@
  * Requirements: cURL
  * 
  * @author Jackson Palmer <hello@ummjackson.com>
- * @version 0.1
  */
  
 class DogeAPI
