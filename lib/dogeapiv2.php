@@ -5,7 +5,7 @@
  * 
  * Requirements: PHP (v5.3+), cURL
  * 
- * @author Steven Hooley <steven@hooley.me> -- Original by Jackson Palmer
+ * @author Steven Hooley <steven@hooley.me> -- Original by Jackson Palmer <hello@ummjackson.com>
  */
  
 class DogeAPIv2
