@@ -1,4 +1,4 @@
-DogeAPI PHP
+DogeAPI PHP & DogeAPI v2 PHP Wrapper
 ===========
 
 PHP wrapper for [DogeAPI.com](https://www.dogeapi.com/) for use with [Dogecoin](http://dogecoin.com/). API key validation on instantiation, simple abstraction layer on top of existing API interfaces, and automatic JSON decoding on response.
@@ -9,10 +9,10 @@ Pull requests accepted and encouraged. :)
 
 First, sign up for an account at [DogeAPI.com](https://www.dogeapi.com/) and take note of your API key under Account > Settings
 
-Download and include the dogeapi.php class:
+Download and include the dogeapi.php or dogeapiv2.php class:
 
 ~~~
-require_once 'path/to/dogeapi.php';
+require_once 'path/to/dogeapi(v2).php';
 ~~~
 
 Or preferably install via [Composer](https://getcomposer.org/)
