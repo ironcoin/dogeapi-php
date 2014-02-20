@@ -19,7 +19,7 @@ class DogeAPIv2
     private function _request($method, $path, $vars = array(), $api_key=true)
     {
         //Put together the URL for cURL Requests
-        if($api_key==true) $url =  'https://www.dogeapi.com/wow/v2/?api_key=' . $this->api_key . $path . '&dev=03kdkj94kfj39slk4';
+        if($api_key==true) $url =  'https://www.dogeapi.com/wow/v2/?api_key=' . $this->api_key . $path;
         else $url =  'https://www.dogeapi.com/wow/v2/?a=' . $path;
 
         // Check for vars and build query string
